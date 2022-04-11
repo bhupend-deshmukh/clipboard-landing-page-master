@@ -1,0 +1,283 @@
+/* Header */
+
+body{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+footer{
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.top-header {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.heading-1 {
+  font-size: 3rem;
+  margin-top: 5rem;
+}
+
+.head-desc-1 p {
+  font-size: 1.5rem;
+  color: rgb(189, 169, 169);
+}
+
+.btn-top {
+  margin-top: 3rem;
+  /* padding: 1rem 1rem 1rem 1rem; */
+}
+
+.top-btn-1 {
+  border: hidden;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: rgb(23, 219, 216);
+  margin-right: 10px;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  color: white;
+}
+.top-btn-2 {
+  border: hidden;
+  padding: 1rem 3rem 1rem 3rem;
+  background-color: rgb(93, 118, 167);
+  margin-left: 1rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.head-desc-2 {
+  margin-top: 10rem;
+}
+
+.head-desc-2 p {
+  font-size: 1.5rem;
+  color: rgb(164, 164, 155);
+}
+
+/* computer-section */
+
+.computer-section {
+  margin: 0 auto;  
+  width: 70%;
+  display: flex;  
+  gap: 7rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  /* justify-content:space-evenly; */
+}
+
+.computer-feature {
+  margin-bottom: 4rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.computer-desc {
+  margin-top: -1rem;
+  color: rgb(164, 164, 155);
+}
+
+/* clipboard-anywhere */
+
+.clipboard-anywhere {
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.clip-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.clip-desc {
+  font-size: 20px;
+  color: rgb(164, 164, 155);
+}
+
+.clip-img {
+  margin-top: 10rem;
+}
+
+.supercharge-top {
+  text-align: center;
+  /* display: flex; */
+  font-size: 3rem;
+  font-weight: 600;
+  /* background-color: green; */
+}
+
+.supercharge-desc {
+  margin-top: -2rem;
+  color: rgb(164, 164, 155);
+  font-size: 25px;
+  
+}
+
+/* three-feature */
+
+.three-feature {
+  margin-top: 5rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  /* align-items: center; */
+}
+
+.three-title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.three-desc {
+  font-size: 20px;
+  color: rgb(164, 164, 155);
+}
+
+/* logos */
+
+.logos {
+  padding: 0 4rem;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+/* clipboard for ios and  mac os*/
+
+.ios-mac-os {
+  margin-top: 10rem;
+  /* display: flex; */
+  text-align: center;
+}
+
+.ios-mac-os h1 {
+  font-size: 2.5rem;
+}
+
+.ios-mac-os p {
+  font-size: 23px;
+  color: rgb(164, 164, 155);
+}
+
+/* footer class */
+
+.down-footer {
+  padding: 2rem;
+  background-color: aliceblue;
+  margin-top: 300px;
+  display: flex;
+  justify-content: space-around;
+  
+  /* justify-items: start; */
+}
+
+.down-footer-svg{
+  margin-top: -15px;
+}
+
+.svfimag {
+  width: 60px;
+  height: 60px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.s-icon {
+  height: 25px;
+  width: 25;
+}
+.f-content{
+  display: flex;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+.f-child{
+  padding: 50px;
+}
+.social-icon {
+  display: flex;
+  /* margin-left: auto; */
+}
+
+.s-icon{
+  padding: 20px;
+  margin-top: 50px;
+}
+/* Media Query */
+
+@media (max-width: 650px) {
+  .down-footer{
+    flex-direction: column;
+
+  }
+  .down-footer-svg{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .svfimag{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .f-child{
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: 0  auto; */
+  }
+  .social-icon{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .s-icon{
+    padding: 10px
+  }
+  .f-content{
+    flex-direction: column;
+    gap: -10px !important;
+    margin: 0 auto;
+  }
+  .btn-top {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .top-btn-2 {
+    margin: 0;
+    margin-top: 30px;
+  }
+  .computer-section {
+    flex-direction: column;
+    text-align: center;
+  }
+  .computer-section img {
+    width: 300px;
+  }
+  .clip-img {
+    width: 300px;
+  }
+  .three-feature {
+    flex-direction: column;
+  }
+  .logos {
+    flex-direction: column;
+  }
+  .logos img {
+    margin-top: 30px;
+  }
+}
